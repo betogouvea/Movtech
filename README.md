@@ -1,4 +1,4 @@
-# 🧪 Projeto de QA – Teste Técnico Movitech
+# 🧪 Projeto de QA – Teste Técnico Movtech
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Tested With](https://img.shields.io/badge/tested%20with-Cypress-brightgreen.svg)](https://www.cypress.io/)
