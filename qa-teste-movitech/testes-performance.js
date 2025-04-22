@@ -16,10 +16,10 @@ export let options = {
 };
 
 // =============================================================
-// 🔐 Se a API exigir autenticação via token, insira seu token abaixo.
+// 🔐 Como a API exigige autenticação via token, insira seu token abaixo.
 // Caso contrário, ignore essa parte.
 // =============================================================
-const TOKEN = 'SEU_TOKEN_AQUI'; // <- Coloque o token real aqui, se necessário
+const TOKEN = 'SEU_TOKEN_AQUI'; // <- Colocar o token real aqui!
 
 export default function () {
   const url = 'https://jsonplaceholder.typicode.com/posts'; // Troque pelo endpoint real se necessário
