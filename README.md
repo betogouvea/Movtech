@@ -6,7 +6,7 @@
 
 ## 📌 Visão Geral
 
-Este repositório contém os testes criados para validar a **qualidade** e o **funcionamento da aplicação da Movitech**. A proposta é garantir que a aplicação esteja estável e funcional através de testes de:
+Este repositório contém os testes criados para validar a **qualidade** e o **funcionamento da aplicação da Movtech**. A proposta é garantir que a aplicação esteja estável e funcional através de testes de:
 
 - ✅ API
 - ⚙️ Carga
