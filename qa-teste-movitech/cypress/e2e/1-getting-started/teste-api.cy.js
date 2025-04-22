@@ -2,7 +2,7 @@ describe('Testes de API para Clientes', () => {
   // ==========================================================
   // 🌐 Configurações gerais
   // ==========================================================
-  const baseUrl = 'https://jsonplaceholder.typicode.com/posts'; // 🔁 Altere aqui o endpoint se necessário
+  const baseUrl = 'https://jsonplaceholder.typicode.com/posts'; // 🔁 Altere aqui o endpoint para o localhost Movitech
   const authToken = 'SEU_TOKEN_AQUI'; // 🔐 Substitua pelo seu token de autenticação
 
   const clienteValido = {
