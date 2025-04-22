@@ -82,7 +82,7 @@ npm install cypress --save-dev
 npx cypress open
 ```
 
-- Testes localizados em: `cypress/integration/`
+- Testes localizados em: `GitHub/Movitech/qa-teste-movitech/cypress/e2e/1-getting-started/teste-api.cy.js`
 
 ---
 
@@ -90,7 +90,7 @@ npx cypress open
 
 ```bash
 npm install -g k6
-k6 run tests/carga/<nome-do-teste>.js
+k6 run GitHub/Movitech/qa-teste-movitech/testes-carga.js
 ```
 
 ---
@@ -98,7 +98,7 @@ k6 run tests/carga/<nome-do-teste>.js
 ### 🔧 K6 – Testes de Performance
 
 ```bash
-k6 run tests/performance/<nome-do-teste>.js
+k6 run /GitHub/Movitech/qa-teste-movitech/testes-performance.js
 ```
 
 ---
