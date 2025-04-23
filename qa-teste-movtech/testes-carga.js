@@ -16,24 +16,24 @@ export let options = {
 };
 
 // =============================================================
-// 🔐 Se a API exigir autenticação via token, insira seu token abaixo.
-// Caso contrário, ignore essa parte.
+// como nessa etapa precisamos do token, o mesmo deve ser aplicado 
+// abaixo
 // =============================================================
-const TOKEN = 'SEU_TOKEN_AQUI'; // <- Coloque o token real aqui, se necessário
+const TOKEN = '7058f58a0a8a4a879700117967be8f1c'; // token criado no front
 
 export default function () {
-  const url = 'https://jsonplaceholder.typicode.com/posts'; // Troque para sua API real se estiver rodando
+  const url = 'http://localhost:5260/api/clients'; // porta do meu local
 
   const payload = JSON.stringify({
     name: '01',
-    email: 'beto.gouvea@example.com',
-    phone: '11999991234',
+    email: 'beto.qa@teste.com',
+    phone: '47996889933',
     address: {
-      street: 'Rua das Flores',
-      city: 'Jaraguá do Sul',
-      state: 'SC',
-      postalCode: '89250-000',
-      number: '100'
+      street: 'Rua Teste',
+      city: 'sao paulo',
+      state: 'SP',
+      postalCode: '01000-000',
+      number: '123'
     }
   });
 
@@ -43,14 +43,14 @@ export default function () {
   const params = {
     headers: {
       'Content-Type': 'application/json',
-      // 'Authorization': `Bearer ${TOKEN}` // <- Descomente se a API precisar de autenticação
+      'Authorization': `Bearer ${TOKEN}` // <- Descomente se a API precisar de autenticação
     }
   };
 
   const res = http.post(url, payload, params);
 
-  // Valida se a resposta da API retornou status 201 (Created)
+  // Valida se a resposta da API retornou status 200 (Created)
   check(res, {
-    'status is 201': (r) => r.status === 201
+    'status is 200': (r) => r.status === 200
   });
 }

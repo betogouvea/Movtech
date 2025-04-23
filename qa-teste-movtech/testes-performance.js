@@ -19,17 +19,17 @@ export let options = {
 // 🔐 Se a API exigir autenticação via token, insira seu token abaixo.
 // Caso contrário, ignore essa parte.
 // =============================================================
-const TOKEN = 'SEU_TOKEN_AQUI'; // <- Coloque o token real aqui, se necessário
+const TOKEN = '7058f58a0a8a4a879700117967be8f1c'; // <- Coloque o token real aqui, se necessário
 
 export default function () {
-  const url = 'https://jsonplaceholder.typicode.com/posts'; // Troque pelo endpoint real se necessário
+  const url = 'http://localhost:5260/api/clients'; // Troque pelo endpoint real se necessário
 
   // =============================================================
   // Headers da requisição. Adicione 'Authorization' se usar token.
   // =============================================================
   const params = {
     headers: {
-      // 'Authorization': `Bearer ${TOKEN}` // <- Descomente se a API precisar de autenticação
+      'Authorization': `Bearer ${TOKEN}` // <- Descomente se a API precisar de autenticação
     }
   };
 
