@@ -16,10 +16,10 @@ export let options = {
 };
 
 // =============================================================
-// 🔐 Se a API exigir autenticação via token, insira seu token abaixo.
+// 🔐 Como a API exigige autenticação via token, insira seu token abaixo.
 // Caso contrário, ignore essa parte.
 // =============================================================
-const TOKEN = '7058f58a0a8a4a879700117967be8f1c'; // <- Coloque o token real aqui, se necessário
+const TOKEN = 'SEU_TOKEN_AQUI'; // <- Coloque o token real aqui, se necessário
 
 export default function () {
   const url = 'http://localhost:5260/api/clients'; // Troque pelo endpoint real se necessário

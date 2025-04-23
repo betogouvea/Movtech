@@ -1,4 +1,4 @@
-# 🧪 Projeto de QA – Teste Técnico Movitech
+# 🧪 Projeto de QA – Teste Técnico Movtech
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Tested With](https://img.shields.io/badge/tested%20with-Cypress-brightgreen.svg)](https://www.cypress.io/)
@@ -6,7 +6,7 @@
 
 ## 📌 Visão Geral
 
-Este repositório contém os testes criados para validar a **qualidade** e o **funcionamento da aplicação da Movitech**. A proposta é garantir que a aplicação esteja estável e funcional através de testes de:
+Este repositório contém os testes criados para validar a **qualidade** e o **funcionamento da aplicação da Movtech**. A proposta é garantir que a aplicação esteja estável e funcional através de testes de:
 
 - ✅ API
 - ⚙️ Carga
