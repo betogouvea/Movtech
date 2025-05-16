@@ -2,7 +2,7 @@ import http from 'k6/http';
 import { check } from 'k6';
 
 // =============================================================
-// CONFIGURAÇÃO DE CARGA - 3 etapas de simulação:
+// CONFIGURAÇÃO DE PERFORMANCE - 3 etapas de simulação:
 // 1. Sobe de 0 até 20 usuários em 5 segundos
 // 2. Mantém 100 usuários simultâneos por 10 segundos
 // 3. Reduz a carga até 0 novamente
